@@ -1,0 +1,470 @@
+
+:host {
+  display: block;
+  color: #75445c;
+  background: #fffafd;
+  font-family: Arial, sans-serif;
+}
+
+/* BARRA SUPERIOR */
+.promo-bar {
+  background: #e989b2;
+  color: white;
+  text-align: center;
+  padding: 9px 12px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+/* NAVEGACIÓN */
+.navbar-kitty {
+  background: #fff8fb;
+  box-shadow: 0 3px 12px #e7a0bf40;
+  border-bottom: 1px solid #f8d5e4;
+  padding: 12px 0;
+}
+
+.navbar-brand {
+  color: #a52a62;
+  font-size: 1.35rem;
+  font-weight: 700;
+}
+
+.navbar-brand:hover {
+  color: #d63384;
+}
+
+.navbar-brand strong {
+  color: #e989b2;
+}
+
+.brand-bow {
+  font-size: 30px;
+  margin-right: 8px;
+}
+
+.navbar-kitty .nav-link {
+  color: #7c2850;
+  font-weight: 600;
+  padding: 10px 15px;
+  border-radius: 25px;
+  transition: 0.25s;
+}
+
+.navbar-kitty .nav-link:hover {
+  color: #c52e75;
+  background: #ffe5ef;
+}
+
+/* PORTADA */
+.hero {
+  background: linear-gradient(135deg, #fff1f7, #ffe0ec);
+  padding: 65px 0;
+  overflow: hidden;
+}
+
+.hero-label,
+.section-heading > span {
+  color: #d65b91;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.hero h1 {
+  margin: 20px 0;
+  color: #853858;
+  font-size: clamp(2.5rem, 5vw, 4.3rem);
+  line-height: 1.12;
+  font-weight: 800;
+}
+
+.hero h1 span {
+  color: #e879aa;
+}
+
+.hero-text > p {
+  max-width: 470px;
+  line-height: 1.9;
+  margin-bottom: 26px;
+}
+
+.btn-pink {
+  display: inline-block;
+  background: #e879aa;
+  color: white;
+  text-decoration: none;
+  border: 2px solid #e879aa;
+  border-radius: 30px;
+  padding: 13px 27px;
+  font-weight: 700;
+  transition: 0.3s;
+}
+
+.btn-pink:hover {
+  color: #c7467c;
+  background: white;
+  transform: translateY(-3px);
+  box-shadow: 0 7px 18px #e879aa30;
+}
+
+.hero-note {
+  color: #b17b96;
+  font-size: 12px;
+  margin-top: 22px;
+}
+
+.hero-image {
+  position: relative;
+  max-width: 470px;
+  margin: auto;
+  padding: 12px;
+  background: white;
+  border-radius: 48% 48% 25px 25px;
+  box-shadow: 0 12px 35px #c66c9630;
+}
+
+.hero-image img {
+  display: block;
+  width: 100%;
+  height: 390px;
+  object-fit: cover;
+  border-radius: 48% 48% 20px 20px;
+}
+
+.floating-heart {
+  position: absolute;
+  display: grid;
+  place-items: center;
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  background: white;
+  box-shadow: 0 5px 15px #a52a6220;
+  font-size: 26px;
+}
+
+.heart-one {
+  top: 15%;
+  right: -12px;
+  color: #e879aa;
+}
+
+.heart-two {
+  bottom: 12%;
+  left: -15px;
+}
+
+/* SECCIONES */
+.section-space {
+  padding: 75px 0;
+}
+
+.section-heading {
+  text-align: center;
+  margin-bottom: 38px;
+}
+
+.section-heading h2 {
+  color: #853858;
+  font-size: clamp(1.7rem, 3vw, 2.4rem);
+  font-weight: 800;
+  margin: 12px 0;
+}
+
+.section-heading p {
+  color: #a17d90;
+  margin-bottom: 0;
+}
+
+/* CATEGORÍAS */
+.categories {
+  background: #fffafd;
+}
+
+.category-card {
+  display: block;
+  height: 100%;
+  padding: 27px 12px;
+  text-align: center;
+  color: #853858;
+  text-decoration: none;
+  background: white;
+  border: 1px solid #f7dbe7;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.category-card:hover {
+  transform: translateY(-5px);
+  background: #fff0f6;
+  border-color: #efa9c8;
+  box-shadow: 0 10px 22px #d66e9b15;
+}
+
+.category-icon {
+  display: block;
+  font-size: 37px;
+  margin-bottom: 12px;
+}
+
+.category-card h3 {
+  font-size: 17px;
+  font-weight: 800;
+}
+
+.category-card p {
+  color: #a17d90;
+  font-size: 12px;
+  margin: 0;
+}
+
+/* PRODUCTOS */
+.products-section {
+  background: #fff3f8;
+}
+
+.product-card {
+  height: 100%;
+  background: white;
+  border: 1px solid #f7dbe7;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.product-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 28px #bd6a8d20;
+}
+
+.product-image {
+  height: 260px;
+  position: relative;
+  overflow: hidden;
+  background: #fce8f0;
+}
+
+.product-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s;
+}
+
+.product-card:hover .product-image img {
+  transform: scale(1.06);
+}
+
+.product-tag {
+  position: absolute;
+  z-index: 1;
+  top: 12px;
+  left: 12px;
+  background: #e879aa;
+  color: rgb(121, 28, 28);
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.product-heart {
+  position: absolute;
+  top: 11px;
+  right: 11px;
+  display: grid;
+  place-items: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: white;
+  color: #d63384;
+  font-size: 22px;
+}
+
+.product-info {
+  padding: 18px;
+}
+
+.product-category {
+  color: #d66b99;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  margin-bottom: 7px;
+}
+
+.product-info h3 {
+  color: #853858;
+  font-size: 17px;
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+
+.product-description {
+  color: #9d8290;
+  font-size: 12px;
+  min-height: 32px;
+}
+
+.product-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  border-top: 1px solid #f8e6ee;
+  padding-top: 13px;
+  margin-top: 10px;
+}
+
+.price {
+  color: #c7467c;
+  font-size: 17px;
+  font-weight: 800;
+}
+
+.buy-button {
+  display: grid;
+  place-items: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: #ffe5ef;
+  color: #c7467c;
+  text-decoration: none;
+  font-size: 23px;
+  transition: 0.25s;
+}
+
+.buy-button:hover {
+  background: #e879aa;
+  color: white;
+}
+
+/* BANNER FINAL */
+.love-banner {
+  padding: 65px 15px;
+  background: linear-gradient(135deg, #f5a8c8, #e879aa);
+  color: white;
+}
+
+.banner-bow {
+  display: block;
+  font-size: 42px;
+  margin-bottom: 12px;
+}
+
+.love-banner h2 {
+  font-size: clamp(1.6rem, 4vw, 2.5rem);
+  font-weight: 800;
+}
+
+.love-banner p {
+  margin: 15px 0 25px;
+}
+
+.btn-white {
+  background: white;
+  color: #c7467c;
+  border-color: white;
+}
+
+.btn-white:hover {
+  background: #fff0f6;
+  color: #a52a62;
+}
+
+/* PIE DE PÁGINA */
+.footer-kitty {
+  padding: 38px 0 25px;
+  background: #fff8fb;
+  color: #8e5670;
+}
+
+.footer-kitty h3 {
+  color: #a52a62;
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.footer-kitty p {
+  font-size: 13px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 22px;
+  margin: 20px 0;
+}
+
+.footer-links a {
+  color: #9d5277;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.footer-links a:hover {
+  color: #e879aa;
+}
+
+.footer-kitty small {
+  color: #b393a3;
+  font-size: 11px;
+}
+
+/* TABLETS Y CELULARES */
+@media (max-width: 767.98px) {
+  .hero {
+    padding: 42px 0;
+  }
+
+  .hero-image img {
+    height: 290px;
+  }
+
+  .hero-image {
+    max-width: 370px;
+    margin-top: 15px;
+  }
+
+  .section-space {
+    padding: 48px 0;
+  }
+
+  .product-image {
+    height: 210px;
+  }
+
+  .product-info {
+    padding: 12px;
+  }
+
+  .product-info h3 {
+    font-size: 15px;
+  }
+
+  .price {
+    font-size: 14px;
+  }
+
+  .category-card {
+    padding: 20px 8px;
+  }
+}
+
+@media (max-width: 380px) {
+  .product-image {
+    height: 165px;
+  }
+
+  .product-description {
+    min-height: 45px;
+  }
+
+  .navbar-brand {
+    font-size: 1.1rem;
+  }
+}

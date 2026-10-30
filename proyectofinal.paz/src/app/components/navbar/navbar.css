@@ -1,0 +1,26 @@
+
+.navbar-kitty {
+  background-color: #ffc1dc;
+  box-shadow: 0 2px 8px #e7a0bf;
+}
+
+.navbar-brand {
+  color: #a52a62;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.logo-kitty {
+  object-fit: contain;
+  border-radius: 50%;
+}
+
+.nav-link {
+  color: #7c2850;
+  font-weight: 600;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: #d63384;
+}

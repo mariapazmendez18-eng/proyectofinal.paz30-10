@@ -1,0 +1,73 @@
+
+/* Navbar principal */
+.navbar-kitty {
+  background-color: #fff5f9;
+  box-shadow: 0 3px 10px rgba(231, 160, 191, 0.35);
+  border-bottom: 2px solid #ffd6e7;
+  padding: 10px 0;
+}
+
+/* Nombre de la tienda */
+.navbar-brand {
+  color: #a52a62;
+  font-weight: bold;
+  font-size: 1.3rem;
+  transition: color 0.3s ease;
+}
+
+.navbar-brand:hover {
+  color: #d63384;
+}
+
+/* Logo */
+.logo-kitty {
+  object-fit: contain;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+.logo-kitty:hover {
+  transform: scale(1.08);
+}
+
+/* Enlaces del menú */
+.navbar-kitty .nav-link {
+  color: #7c2850;
+  font-weight: 600;
+  padding: 9px 15px;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+/* Efecto al pasar el mouse */
+.navbar-kitty .nav-link:hover {
+  color: #d63384;
+  background-color: #ffe0ed;
+}
+
+/* Enlace de la página actual */
+.navbar-kitty .nav-link.active {
+  color: #fff;
+  background-color: #e879aa;
+}
+
+/* Botón del menú en celulares */
+.navbar-kitty .navbar-toggler {
+  border: 1px solid #e7a0bf;
+  border-radius: 10px;
+}
+
+.navbar-kitty .navbar-toggler:focus {
+  box-shadow: 0 0 0 3px rgba(231, 160, 191, 0.3);
+}
+
+/* Menú desplegable en celulares */
+@media (max-width: 991.98px) {
+  .navbar-kitty .navbar-collapse {
+    padding-top: 12px;
+  }
+
+  .navbar-kitty .nav-link {
+    margin: 3px 0;
+  }
+}

@@ -1,0 +1,25 @@
+
+.navbar {
+  min-height: 75px;
+}
+
+.navbar-brand {
+  color: rgb(112, 16, 16);
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.navbar-brand img {
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.nav-link {
+  color: rgb(121, 10, 10);
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: #8b164b;
+  font-weight: bold;
+}

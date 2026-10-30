@@ -1,0 +1,7 @@
+.fondo-inicio{
+ min-height: 100vh;
+ background-image: url('/imagen.pazz.png');
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+}
